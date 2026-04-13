@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.dl-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #374151;
+  background-color: #1f2937;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #d1d5db;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+.dl-btn:hover {
+  background-color: #374151;
+}
